@@ -1,0 +1,145 @@
+/*configurações gerais da página*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', 'sans-serif';
+}
+
+/*estilização da página home*/
+
+#navbar{
+    width: 100vw;
+    height: 10vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    box-shadow: 0 3px 7px #0008;
+    background-color: #00001098;
+}
+
+#navbar a{
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 200;
+    color: #fff;
+    transition: ease-in-out 0.3s;
+    text-shadow: 1em;
+}
+
+#navbar #home{
+    color: #00001080;
+    border-bottom: 1px solid #ffffff;
+}
+
+
+#navbar a:hover{
+    transform: scale(1.1);
+    opacity: 80%;
+}
+
+#main-container{
+    width: 100vw;
+    height: 90vh;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+    background-color: #00001080;
+    color: #fff;
+}
+
+#main-container p{
+    font-size: 32px;
+    font-weight: 400;
+}
+
+#main-container span{
+    font-size: 25px;
+    font-weight: lighter;
+    letter-spacing: 1rem;
+}
+
+/*estilização da página sobre mim*/
+
+#about-me-container{
+    width: 100vw;
+    height: 100dvh;
+    background-color: #00001080;
+    color: #fff;
+}
+
+#cta-title{
+    width: 100vw;
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cta-content{
+    display: grid;
+    grid-template-columns: 30vw 70vw;
+    justify-items: center;
+    align-items: center;
+    height: 60vh;
+}
+
+#cta-content #left-block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#cta-content #left-block img{
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 50%;
+    align-self: center;
+}
+
+#cta-content #left-block #links i{
+    font-size: 30px;
+    align-self: center;
+}
+
+/*estilização da página skills*/
+
+#skills-container{
+    background-color: #00001080;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:#fff;
+}
+
+#skills-container #title{
+    display: flex;
+    align-items: center;
+    height: 25vh;
+}
+
+#skills-container #skills{
+    display: flex;
+    align-items: center;
+    height: calc(100vh - 45vh);
+}
+
+#skills-container p{
+    font-size: 32px;
+    font-weight: 400;
+}
+
+#skills-container li{
+    font-size: 25px;
+    font-weight: 200;
+    letter-spacing: 0.5em;
+}

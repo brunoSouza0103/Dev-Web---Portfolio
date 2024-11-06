@@ -150,7 +150,18 @@
 #skills-container #skills{
     display: flex;
     align-items: center;
+    width: 100vw;
     height: calc(100vh - 45vh);
+}
+
+#skills-container #skills ul{
+    width: 100vw;
+    display: grid;
+    justify-items: center;
+}
+
+#skills-container #skills ul li{
+    width: 80%;
 }
 
 #skills-container p{
